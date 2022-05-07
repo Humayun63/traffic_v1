@@ -1,0 +1,412 @@
+/*  BASIC STYLE STARTS HERE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    color: #000;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    font-family: 'Khula', sans-serif;
+}
+.container{
+    width: 120rem;
+    margin: 0 auto;
+}
+.hero-btn{
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    background: #EF476F;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    border: none;
+    outline: none;
+    height: 5rem;
+    border-radius: 1rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+    border: 0.1rem solid #EF476F;
+    transition: all 0.1s ease;
+}
+.hero-btn:hover{
+    background: #FFFFFF;
+    color: #EF476F;
+}
+h2{
+    color: #373737;
+    font-size: 2.8rem;
+    letter-spacing: 0.1rem;
+}
+h3{
+    font-size: 2rem;
+    color: #373737;
+}
+p{
+    color: #999999;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+}
+/*  BASIC STYLE ENDS HERE */
+/*  HEADER SECTION STYLE STARTS HERE */
+header{
+    height: 80vh;
+    border-bottom: 0.1rem solid #DDDDDD;
+}
+nav{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo img{
+    width: 6.5rem;
+    height: auto;
+}
+nav .menu a{
+    color: #888888;
+    font-size: 1.8rem;
+    padding: 1rem 1.5rem;
+    text-transform: capitalize;
+    position: relative;
+    right: -5rem;
+    transition: all 0.2s linear;
+}
+nav .menu a:hover{
+    color: #EF476F;
+}
+main{
+    display: flex;
+    height: 60vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+main .main-section-box{
+    width: 45%;
+}
+main .main-section-box h2{
+    font-size: 3.5rem;
+    letter-spacing: 0.1rem;
+    color: #373737;
+}
+main .main-section-box p{
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    color: #999999;
+    margin: 1rem 0;
+}
+main .main-section-box .analysis-box input{
+    width: 25rem;
+    height: 5rem;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 0.1rem solid #ddd;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+main img{
+    width: 35%;
+    height: auto;
+    object-fit: contain;
+}
+/*  HEADER SECTION STYLE ENDS HERE */
+.services-section{
+    margin-top: 10rem;
+    text-align: center;
+}
+.services-section h2{
+    color: #373737;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.services-section .p{
+    olor: #979797;
+    font-size: 1.8rem;
+    width: 65rem;
+    margin: 1.5rem auto;
+}
+.services-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.services-cards .single-card{
+    width: 30%;
+    padding: 1rem;
+    margin: 1rem;
+    border: 0.1rem solid #DDDDDD;
+    transition: all 0.3s ease-in-out;
+}
+.services-cards .single-card:hover{
+    border-color:#EF476F ;
+}
+.services-cards .single-card:hover i{
+    color: #EF476F;
+}
+
+.services-cards .single-card:hover h3{
+    color: #EF476F;
+}
+
+.services-cards .single-card:hover a{
+    color: #EF476F;
+}
+.single-card i, h3, a{
+    color: #373737;
+}
+.single-card i{
+    font-size: 4rem;
+    margin: 1rem;
+}
+.single-card p{
+    color: #999999;
+    font-size: 1.6rem;
+}
+/*  SERVICES SECTION STYLE ENDS HERE */
+/*  SHOW OFF SECTION STYLE STARTS HERE  */
+.show-off-section{
+    display: flex;
+    justify-content: space-between;
+    height: 30rem;
+    align-items: center;
+    margin-bottom: 7rem;
+}
+.show-off-box{
+    width: 45%;
+}
+.show-off-box h2{
+    color: #373737;
+    font-size: 2.8rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.8rem;
+}
+.show-off-box p{
+    color: #999999;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    margin:1rem 0;
+}
+.show-off-section img{
+    width: 45%;
+    height: auto;
+    object-fit: contain;
+}
+/*  SHOW OFF SECTION STYLE ENDS HERE    */
+/*  CASE STUDY SECTION STYLE STARTS HERE    */
+.case-study-section-cover{
+    background: #FBFBFB;
+}
+.case-study-section{
+    padding: 7rem 0;
+    text-align: center;
+}
+.case-study-section h2{
+    color: #373737;
+    font-size: 3rem;
+}
+.case-study-section p{
+    color: #999999;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+    padding: 1.5rem 27rem;
+}
+.case-study-img{
+    display: flex;
+    justify-content: space-between;
+}
+.case-study-img img{
+    width: 30%;
+    cursor: pointer;
+}
+/*  CASE STUDY SECTION STYLE ENDS HERE  */
+/*  REVIEW  SECTION STYLE STARTS HERE  */
+.review-section{
+    text-align: center;
+    padding: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.review-section q{
+    color: #373737;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+.review-section img{
+    width: 10rem;
+    background: #ddd;
+    padding: 0.5rem;
+    border-radius: 50%;
+    height: 10rem;
+    margin: 1rem 0;
+}
+.review-section .client-name{
+    color: #373737;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+.review-section .client-position{
+    color: #979797;
+    font-size: 1.4rem;
+}
+/*  REVIEW  SECTION STYLE ENDS HERE  */
+/*  ANALYSIS  SECTION STYLE STARTS HERE  */
+.analysis-section-cover{
+    background: #F8F8F8;
+}
+.analysis-section{
+    height: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*  ANALYSIS  SECTION STYLE ENDS HERE  */
+/*  PRICING  SECTION STYLE STARTS HERE  */
+.pricing-section{
+    padding: 7rem 0;
+    height: 70rem;
+    text-align: center;
+}
+.pricing-section >p{
+    padding: 0 10rem;
+}
+.pricing-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0;
+}
+.single-pricing-card{
+    width: 32%;
+    border: 0.1rem solid #979797;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    transition: all 0.1s ease;
+}
+.single-pricing-card p{
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+.single-pricing-card h3{
+    font-size: 2.5rem;
+    color: #373737;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem #888888;
+}
+.single-pricing-card .pricing-money{
+    color: #EF476F;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.single-pricing-card .per-month{
+    font-size: 1.4rem;
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+}
+.single-pricing-card .underline{
+    width: 19rem;
+    background-color: #979797;
+    height: 0.2rem;
+    margin: 2rem auto;
+}
+.single-pricing-card button{
+    margin: 1rem;
+}
+.single-pricing-card:hover{
+    border-color: #EF476F;
+    border-radius: 1rem;
+    box-shadow: 0  0 3rem -0.5rem #888888
+}
+.single-pricing-card:hover .underline{
+    background-color: #EF476F;
+}
+
+/*  PRICING  SECTION STYLE ENDS HERE  */
+/*  PARTNER  SECTION STYLE STARTS HERE  */
+.partner-section{
+    text-align: center;
+}
+.partner-section img{
+    width: 8rem;
+    height: auto;
+    object-fit: contain;
+    margin: 1rem 4rem;
+    padding-bottom:7rem;
+}
+
+/*  PARTNER  SECTION STYLE ENDS HERE  */
+/*  QUICK  SECTION STYLE STARTS HERE  */
+.quick-links-section-cover{
+    background: #FDFDFD;
+}
+.quick-links-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem 0;
+}
+.quick-links-section section{
+    width: 15%;
+}
+.quick-links-section section:nth-child(4){
+    width: 27%;
+}
+.quick-links-section section ul li a:hover{
+    text-decoration: underline;
+}
+.sing-up-var{
+    margin-top: 1.5rem;
+}
+.sing-up-var input{
+    border: none;
+    padding: 1rem;
+    background: #F6F6F6;
+    color: #373737;
+    outline: none;
+    width: 22rem;
+    height: 4rem;
+    margin-right: -0.6rem
+}
+.sing-up-var button{
+    height: 4rem;
+    border-radius: 0;
+}
+.social-icons{
+    width: 100%;
+    margin-top: 5rem;
+}
+.social-icons a{
+    margin-right: 1.5rem;
+    transition: all 0.1s linear;
+}
+.social-icons div.icons a:hover i{
+    color: #EF476F;
+}
+.social-icons div.icons a:hover span{
+    color: #EF476F;
+}
+/*  QUICK  SECTION STYLE ENDS HERE  */
+/*  FOOTER  SECTION STYLE STARTS HERE  */
+footer{
+    background: #F7F7F7;
+}
+.footer-section{
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/*  FOOTER  SECTION STYLE ENDS HERE  */
